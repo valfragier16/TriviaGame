@@ -4,6 +4,10 @@ body{
 	background-size: 100%;
 }
 
+audio {
+	float: right;
+}
+
 h1 {
 	font-weight: bold;
 	font-size: 35px;
