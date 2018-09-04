@@ -1,0 +1,18 @@
+body{
+	background-image: url("../Images/Spirited\ Away\ Wallpaper.jpg");
+	text-align: center;
+	background-size: 100%;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 35px;
+	color: white;
+}
+
+.last-seconds{
+  color: red;
+}
+.option{
+  margin: 15px;
+}
