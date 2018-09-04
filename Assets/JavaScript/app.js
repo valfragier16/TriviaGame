@@ -58,7 +58,7 @@ $(document).ready(function(){
 
     // Answers for each qeustion
     answers: {
-      q1: "B. Human Tansmutation",
+      q1: "B. Human Transmutation",
       q2: "A. Hayao Miyazaki",
       q3: "C. Ramen",
       q4: "B. Gohan",
@@ -94,7 +94,7 @@ $(document).ready(function(){
       trivia.nextQuestion();
       
     },
-    
+
     // method to loop through and display questions and options 
     nextQuestion : function(){
       
