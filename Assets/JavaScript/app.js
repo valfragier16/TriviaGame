@@ -26,7 +26,7 @@ $(document).ready(function(){
   })
   
   var trivia = {
-    // trivia properties
+    // Scorer Properties
     correct: 0,
     incorrect: 0,
     unanswered: 0,
@@ -66,7 +66,7 @@ $(document).ready(function(){
       q6: "A. One Piece",
     },
 
-    // trivia methods
+    // Scores
     // method to initialize game
     startGame: function(){
       // restarting game results
@@ -95,11 +95,11 @@ $(document).ready(function(){
       
     },
 
-    // method to loop through and display questions and options 
+    // Loop through the questions
     nextQuestion : function(){
       
     
-      trivia.timer = 15;
+      trivia.timer = 10;
        $('#timer').removeClass('last-seconds');
       $('#timer').text(trivia.timer);
       
@@ -123,7 +123,7 @@ $(document).ready(function(){
     },
 
 
-    // method to decrement counter and count unanswered if timer runs out
+    // Timer
     timerRunning : function(){
       // if timer still has time left and there are still questions left to ask
       if(trivia.timer > -1 && trivia.currentSet < Object.keys(trivia.questions).length){
