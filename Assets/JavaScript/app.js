@@ -192,7 +192,7 @@ $(document).ready(function(){
         trivia.incorrect++;
         clearInterval(trivia.timerId);
         resultId = setTimeout(trivia.guessResult, 1000);
-        $('#results').html('<h3>Wrong Answer! Try watching more tv! '+ currentAnswer +'</h3>');
+        $('#results').html('<h3>Wrong Answer! Try watching more tv! The answer is '+ currentAnswer +'</h3>');
       }
       
     },
