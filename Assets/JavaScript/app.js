@@ -84,11 +84,14 @@ $(document).ready(function(){
       
       // show timer
       $('#timer').text(trivia.timer);
+
+      // remaining time
+      $('#remaining-time').show();
       
       // remove start button
       $('#start').hide();
   
-      $('#remaining-time').show();
+     
       
       // ask first question
       trivia.nextQuestion();
