@@ -39,11 +39,12 @@ $(document).ready(function(){
     // Define questions 
     questions: {
       q1: "In the anime series Full Metal Alchemist, what do Alchemists consider the greatest taboo?",
-      q2: "Who create the animated movie Princess Mononoke(1997), and Spirited Away(2001)?",
+      q2: "Who created the animated movie Princess Mononoke(1997), and Spirited Away(2001)?",
       q3: "What is Naruto's favorite food?",
       q4: "In Dragon Ball Z, who was the first character to go Supeer Saiyan 2?",
       q5: "Who is Inuyasha's older brother?",
       q6: "In what show does the main character state he wants to be 'King of Pirates'?",
+      q7: "How old is Usagi Tsukino when she becomes Sailor Moon?"
     },
 
     // Define choices of each question
@@ -54,6 +55,7 @@ $(document).ready(function(){
       q4: ["A. Vegeta", "B. Gohan", "C. Bulma", "D. Piccolo"],
       q5: ["A. Shippo", "B. Naraku", "C. Miroku", "D. Sesshomaru"],
       q6: ["A. One Piece", "B. Cowboy Bebop", "C. Death Note", "D. Bleach"],
+      q7: ["A. 12 years old", "B. 14 years old", "C. 16 years old", "D. 18 years old"],
     },
 
     // Answers for each qeustion
@@ -64,6 +66,7 @@ $(document).ready(function(){
       q4: "B. Gohan",
       q5: "D. Sesshomaru",
       q6: "A. One Piece",
+      q7: "B. 14 years old",
     },
 
     // Scores
