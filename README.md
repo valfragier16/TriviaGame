@@ -3,7 +3,7 @@ GW Homework 5
 
 Create a trivia form with multiple choice or true/false questions.
 
-The playerr will have a limited amount of time to finish the quiz.
+The player will have a limited amount of time to finish the quiz.
     the game ends when the time runs out. The pay will reveal the number of questions that players answer corectly and incorrectly.
 
 Remember:
